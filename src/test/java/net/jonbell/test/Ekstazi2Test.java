@@ -8,7 +8,7 @@ public class Ekstazi2Test {
 
 	@Test
 	public void testClass3() throws Exception {
-		System.out.println(Class1.c2.getV()); //Should rerun every time that Class2 changes
+		System.out.println(Class1.c2.getV()); //Should rerun every time that Class2 changes. This only works from the fix from Issue #4 :)
 		System.out.println("Tested class2 in class3test");
 	}
 }

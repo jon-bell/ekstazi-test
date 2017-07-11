@@ -15,6 +15,7 @@ public class Ekstazi1Test {
 	public void testClass2() throws Exception {
 		Class2 b = new Class2();
 		Class1.c2 = b;
+		b.c3 = new Class3();
 		System.out.println("Tested class2");
 	}
 }

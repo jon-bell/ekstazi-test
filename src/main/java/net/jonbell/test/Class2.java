@@ -1,7 +1,9 @@
 package net.jonbell.test;
 
-public class Class2 extends Class1 {
-	@Override
+public class Class2 {
+	
+	Class3 c3;
+
 	public int getV() {
 		return 11;
 	}
